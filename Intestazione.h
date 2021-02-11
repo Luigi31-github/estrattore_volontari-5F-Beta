@@ -46,7 +46,7 @@ Studente::Studente(std::string nome, int punteggio)
 
 //liste e vettori. 
 std::vector <std::string> materie_s{ "italiano","latino","inglese","storia","filosofia","matematica","fisica","arte","scienze","motoria","civica" };
-std::vector <std::string> nomi{ "Alunno1","Alunno2","Alunno3","Alunno4","Alunno5","Alunno6" };
+std::vector <std::string> nomi{ "Stronzo","Alunno1","Alunno2","Alunno3","Alunno4","Alunno5","Alunno6" };
 bool m_interrogato[nomi.size][11]{};
 std::vector <std::string> lista_stringhe;
 std::vector < int> punteggi;
