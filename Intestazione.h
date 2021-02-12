@@ -56,7 +56,7 @@ std::vector<std::string> estratti;
 //funzioni
 void lettore_lista() {
     std::ifstream file;
-    file.open("lista_sfigati.txt");
+    file.open("dati.txt");
     std::string x{};
     int linea{ 0 };
     while (std::getline(file, x)) {
@@ -81,7 +81,7 @@ void lettore_lista() {
 
 void scrittore_lista() {
     std::ofstream file;
-    file.open("lista_sfigati.txt");
+    file.open("dati.txt");
     for (size_t i{ 0 }; i < lista_studenti.size(); i++) {
         file << "//" << lista_studenti[i].score << " ";
         for (size_t n{ 0 }; n < materie_s.size(); n++) {
