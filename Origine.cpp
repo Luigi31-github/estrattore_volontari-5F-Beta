@@ -30,6 +30,7 @@ int main() {
             for (auto x : interrogazioni) {
                 std::cout << " " << x;
             }
+            interrogazioni.clear();
         }
         std::cout << std::endl;
     }
@@ -87,7 +88,7 @@ int main() {
                 if (estrazioni > 0) {
                     int count = 0;
 
-                    //creazione lista di nomi da cui pescare escludendo i gi‡ interrogati alla materia
+                    //creazione lista di nomi da cui pescare escludendo i gi√† interrogati alla materia
                     for (size_t i{ 0 }; i < lista_studenti.size(); i++) {
                         if (lista_studenti[i].stato_interrogato(materia) == false) {
                             for (int n{ 0 }; n < lista_studenti[i].score; n++) {
@@ -179,6 +180,7 @@ int main() {
             for (auto x : interrogazioni) {
                 std::cout << " " << x;
             }
+            interrogazioni.clear();
         }
         std::cout << std::endl;
     }
