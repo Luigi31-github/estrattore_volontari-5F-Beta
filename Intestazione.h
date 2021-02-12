@@ -8,7 +8,7 @@
 std::vector <std::string> materie_s{ "italiano","latino","inglese","storia","filosofia","matematica","fisica","arte","scienze","motoria","civica" };
 bool m_interrogato[27][11]{};
 std::vector <std::string> lista_stringhe;
-std::vector <std::string> nomi{ "Alunno 1", "Alunno 2", "Alunno 3", "Alunno 4" "Alunno 5", "Alunno 6", "Alunno 7", "Alunno 8", "Alunno 9" "Alunno 10", "Alunno 11", "Alunno 12", "Alunno 13", "Alunno 14" "Alunno 15", "Alunno 16", "Alunno 17", "Alunno 18", "Alunno 19" "Alunno 20", "Alunno 21", "Alunno 22", "Alunno 23", "Alunno 24" "Alunno 25", "Alunno 26" "Alunno 27" };
+std::vector <std::string> nomi{ "Alunno 1", "Alunno 2", "Alunno 3", "Alunno 4", "Alunno 5", "Alunno 6", "Alunno 7", "Alunno 8", "Alunno 9", "Alunno 10", "Alunno 11", "Alunno 12", "Alunno 13", "Alunno 14", "Alunno 15", "Alunno 16", "Alunno 17", "Alunno 18", "Alunno 19", "Alunno 20", "Alunno 21", "Alunno 22", "Alunno 23", "Alunno 24", "Alunno 25", "Alunno 26", "Alunno 27" };
 std::vector < int> punteggi;
 std::vector<std::string> estratti;
 std::vector <std::string> interrogazioni;
