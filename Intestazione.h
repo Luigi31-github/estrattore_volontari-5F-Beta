@@ -32,13 +32,14 @@ public:
         }
         else { return false; }
     }
-
-    void interrogazioni(std::string materia, bool interrogato) {
-        this->materie[materia] = interrogato;
-    }
+    
     void modifica_punteggio(int a) {
         this->score += a;
+        if (this->score < 0) {
+            this->score = 0;
+        }
     }
+    
     Studente(std::string nome, int punteggio);
 };
 Studente::Studente(std::string nome, int punteggio)
