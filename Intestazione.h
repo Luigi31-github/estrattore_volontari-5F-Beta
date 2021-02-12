@@ -82,7 +82,14 @@ void lettore_lista() {
 void scrittore_lista() {
     std::ofstream file;
     file.open("dati.txt");
-    for (size_t i{ 0 }; i < lista_studenti.size(); i++) {
+    if (lista_studenti[i].score < 10) {
+        file << "//" << lista_studenti[i].score << "  ";
+        for (size_t n{ 0 }; n < materie_s.size(); n++) {
+            file << lista_studenti[i].materie[materie_s[n]];
+        }
+        file << std::endl;
+    }
+    else {
         file << "//" << lista_studenti[i].score << " ";
         for (size_t n{ 0 }; n < materie_s.size(); n++) {
             file << lista_studenti[i].materie[materie_s[n]];
